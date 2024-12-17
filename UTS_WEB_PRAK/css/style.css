@@ -1,0 +1,225 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  width: 100px;
+}
+
+.navbar nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+  color: #ffeb3b;
+}
+
+.btn-primary {
+  background-color: #498dc1;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #4a9ad7;
+}
+
+
+/* Main Section */
+main {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#tentang p {
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+.list-ukm table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+
+.list-ukm th, .list-ukm td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.activity-img {
+  width: 100px;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #498dc1;
+  color: white;
+}
+
+footer .logo {
+  width: 3rem;
+}
+
+footer .menu {
+  font-size: 0.9rem;
+}
+
+.sosmed a {
+  color: white;
+  margin-left: 1rem;
+}
+
+.sosmed svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: white;
+}
+
+/* Gaya untuk konten utama */
+section.content {
+  flex: 80%;
+  padding: 20px;
+  height: 100vh;
+  overflow: scroll;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  padding: 15px 20px;
+}
+
+/* Tombol tambah */
+.add-button {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.add-button button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button button:hover {
+  background-color: #218838;
+}
+
+/* Gaya untuk form */
+form {
+  background-color: #fff;
+  padding: 2rem;
+  margin: 1rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Gaya untuk tabel */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #333;
+  color: white;
+}
+
+table img {
+  border-radius: 4px;
+}
+
+/* Mengatur desain tombol aksi yang dibuat dengan tag <a> */
+.tombol {
+  display: inline-block;
+  max-width: 150px;
+  padding: 15px 30px;
+  color: #fff;
+  text-decoration: none;
+  background: #038ade;
+  cursor: pointer;
+}
+
+/* Desain tombol edit dan hapus agar lebih kecil */
+.tombol.edit,
+.tombol.hapus {
+  padding: 10px 15px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.tombol.hapus {
+  background: #fc4c4c;
+}
+
+.tombol.edit:hover {
+  background-color: #0056b3;
+}
+
+.tombol.hapus:hover {
+  background-color: #c82333;
+}

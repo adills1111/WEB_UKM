@@ -1,0 +1,285 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #ffeb3b;
+}
+
+.btn-primary {
+    background-color: #498dc1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4a9ad7;
+}
+
+
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 2rem;
+    background-color: #bbc7d7;
+}
+
+.welcome {
+    max-width: 600px;
+}
+
+.welcome-message {
+    position: relative;
+    font-size: 1.5rem;
+    color: #0078d4;
+}
+
+
+h1 {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+}
+
+.cta a {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+/* Profile Card */
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+/* UKM Section */
+#ukm {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fafafa;
+}
+/* Keanggotaan Section Styling */
+#ukm h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.chart {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    padding: 20px;
+    gap: 20px; 
+}
+
+/* Card Styling */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px; 
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Adds a subtle zoom effect on hover */
+}
+
+/* Image Styling in Cards */
+.card img {
+    width: 100%; /* Makes image take the full width of the card */
+    height: 200px; /* Sets a fixed height for the image */
+    object-fit: cover; /* Crops image to fit within dimensions */
+    border-radius: 8px; /* Matches the rounded corners of the card */
+    margin-bottom: 15px;
+}
+
+/* Card Title and Text Styling */
+.card h2 {
+    font-size: 1.2em;
+    color: #0078d4;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+
+.list-ukm {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.card {
+    width: 300px;
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    color: #0078d4;
+    margin-bottom: 1rem;
+}
+/* General Image Styling for Cards */
+.card img {
+    width: 100%; /* Ensures image takes the full width of the card */
+    height: 200px; /* Set a fixed height for consistency */
+    object-fit: cover; /* Crops the image to fill the specified height and width */
+    border-radius: 8px; /* Matches the card's rounded corners */
+    margin-bottom: 10px; /* Adds space below the image */
+}
+
+/* Optional: Adjust card layout to ensure a consistent look */
+.card {
+    flex: 1 1 30%; /* Adjusts card width */
+    min-width: 250px; /* Ensures a minimum width for larger images */
+    max-width: 300px; /* Sets a maximum width for the card */
+}
+
+
+.card p {
+    color: #555;
+}
+
+.btn-primary {
+    background-color: #0078d4;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0078d4;
+}
+
+.btn-primary {
+    background-color: #58a6e1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #638197;
+}
+
+
+        .chart {
+            display: flex;
+            flex-wrap: wrap; /* Allows cards to wrap to next line */
+            justify-content: space-between; /* Space out cards */
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px; /* Margin between cards */
+            flex: 1 1 30%; /* Flex properties for responsiveness */
+            min-width: 200px; /* Minimum width of the card */
+            text-align: center; /* Center text in the card */
+        }
+
+/* Footer Styles */
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0078d4;
+    color: white;
+  }
+  
+  footer .logo {
+    width: 3rem;
+  }
+  
+  footer .menu {
+    font-size: 0.9rem;
+  }
+  
+  .sosmed a {
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .sosmed svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: white;
+  }

@@ -1,0 +1,122 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #f8f8f8;
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0078d4;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    width: 100px;
+}
+
+.navbar nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar nav a:hover {
+    color: #ffeb3b;
+}
+
+#form {
+    background-color: aliceblue;
+    text-align: center;
+    padding: 30px;
+
+
+}
+
+.btn-primary {
+    background-color: #498dc1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4a9ad7;
+}
+
+.btn-primary {
+    background-color: #498dc1;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #4a9ad7;
+}
+
+
+.chart {
+            display: flex;
+            flex-wrap: wrap; /* Allows cards to wrap to next line */
+            justify-content: space-between; /* Space out cards */
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px; /* Margin between cards */
+            flex: 1 1 30%; /* Flex properties for responsiveness */
+            min-width: 200px; /* Minimum width of the card */
+            text-align: center; /* Center text in the card */
+        }
+
+        /* Footer Styles */
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0078d4;
+    color: white;
+  }
+  
+  footer .logo {
+    width: 3rem;
+  }
+  
+  footer .menu {
+    font-size: 0.9rem;
+  }
+  
+  .sosmed a {
+    color: white;
+    margin-left: 1rem;
+  }
+  
+  .sosmed svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: white;
+  }
+  
